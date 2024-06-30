@@ -1,0 +1,45 @@
+h1,p,h2{
+    text-align: center;
+}
+.container-input{
+    text-align: center;
+}
+.placeAns{
+    text-align: center;
+}
+ul{
+    margin: 0 auto;
+}
+.value{
+    width: 200px;
+    height: 20px;
+}
+.hide-ans{
+    display: none;
+    text-align: center;
+}
+.show-ans{
+    display: block;
+    text-align: center;
+}
+
+
+.show-ans ul {
+    list-style: none; /* Remove default list styling */ 
+    text-align: center;
+  }
+  
+  .show-ans ul li {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically in the center */
+    position: relative;
+    padding-left: 625px; /* Add padding to make space for the custom bullet */
+  }
+  
+  .show-ans ul li::before {
+    content: "•"; /* Use bullet symbol */
+    position: center;
+    left: 0;
+    color: black; /* Change bullet color if needed */
+    font-size: 1.5em; /* Adjust the bullet size if needed */
+  }

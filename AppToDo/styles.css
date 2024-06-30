@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.todo-app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.todo-list {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.todo-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */
+    align-items: center;
+}
+
+.add-task {
+    display: flex;
+    align-items: center;
+}
+
+.add-task input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.add-task button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.remove-btn{
+    padding: 5px 10px;
+    font-size: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.add-task button:hover {
+    background-color: #45a049;
+}
